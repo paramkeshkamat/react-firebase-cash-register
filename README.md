@@ -1,3 +1,3 @@
 # React and Firebase Cash Register Web App
-
-![screenshot]("src/assets/Screenshot.png")
+\
+![screenshot](https://i.ibb.co/yQx010h/Screenshot.png)
