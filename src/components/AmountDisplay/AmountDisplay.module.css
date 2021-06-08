@@ -1,0 +1,56 @@
+.AmountDisplay {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 30px;
+}
+
+.amountCards {
+  max-width: 1168px;
+  width: 90vw;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  grid-gap: 2rem;
+  margin: 2rem;
+}
+
+.singleAmountCard {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #fff;
+  font-size: 2rem;
+  padding: 1rem;
+  border-radius: 0.4rem;
+  border: 0.2rem solid rgba(122, 105, 105, 0.5);
+  font-weight: 600;
+  text-transform: capitalize;
+}
+
+.totalAmount {
+  max-width: 500px;
+  width: 90vw;
+  margin-bottom: 2rem;
+  background-color: #fff;
+  padding: 1rem;
+  border-radius: 0.4rem;
+  border: 0.2rem solid rgba(122, 105, 105, 0.5);
+  font-weight: 600;
+  text-transform: capitalize;
+}
+
+.singleAmountCard p:first-child {
+  margin-bottom: 1rem;
+}
+
+@media (max-width: 320px) {
+  .amountCards,
+  .totalAmount {
+    display: block;
+    width: 95vw;
+  }
+  .singleAmountCard {
+    margin: 1.5rem 0;
+  }
+}
